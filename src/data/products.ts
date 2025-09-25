@@ -4,10 +4,9 @@ export const products: Product[] = [
   // Aluminum Products
   {
     id: "al-001",
-    name: "Aluminium Anna Koodai",
+    name: "aluminium kadai",
     price: 299,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2020/10/Rathna-Stores-Aluminium-anna-koodai-02-300x300.jpg",
+    image: "/images/aluminium kadai.webp",
     category: "aluminum",
     description:
       "Traditional aluminium serving bowl perfect for rice and other dishes.",
@@ -17,10 +16,9 @@ export const products: Product[] = [
   },
   {
     id: "al-002",
-    name: "Aluminium Chipal Plate",
+    name: "aluminium saucepan",
     price: 149,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2021/03/Aluminium-Chipal-Plate-02-300x300.jpg",
+    image: "/images/aluminium saucepan.webp",
     category: "aluminum",
     description: "Durable aluminium plate ideal for everyday dining.",
     rating: 4.3,
@@ -28,10 +26,9 @@ export const products: Product[] = [
   },
   {
     id: "al-003",
-    name: "Aluminium Idli Anai",
+    name: "aluminium uruli",
     price: 399,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2020/10/Rathna-Stores-Aluminium-idli-panai-02-300x300.jpg",
+    image: "/images/aluminium uruli.webp",
     category: "aluminum",
     description:
       "Traditional aluminium idli steamer for authentic South Indian cooking.",
@@ -40,10 +37,9 @@ export const products: Product[] = [
   },
   {
     id: "al-004",
-    name: "Aluminium Fry Pan",
+    name: "aluminium thali karandi",
     price: 249,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2020/10/Rathna-Stores-Aluminium-fry-pan-03-300x300.jpg",
+    image: "/images/aluminium thali karandi.webp",
     category: "aluminum",
     description: "Lightweight aluminium frying pan for everyday cooking.",
     rating: 4.4,
@@ -53,10 +49,9 @@ export const products: Product[] = [
   // Copper Products
   {
     id: "cu-001",
-    name: "Copper Plate",
+    name: "Coper Plate",
     price: 599,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2020/10/rathna-stores-copper_plate-01-300x300.jpg",
+    image: "/images/copper plate.webp",
     category: "copper",
     description:
       "Premium copper plate with excellent heat retention and health benefits.",
@@ -68,8 +63,7 @@ export const products: Product[] = [
     id: "cu-002",
     name: "Copper Thavalai",
     price: 799,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2020/10/rathna-stores-copper_thavalai-03-300x300.jpg",
+    image: "/images/copper thavalai.jpeg",
     category: "copper",
     description:
       "Traditional copper thavalai for authentic cooking and serving.",
@@ -78,10 +72,9 @@ export const products: Product[] = [
   },
   {
     id: "cu-003",
-    name: "Sembu",
+    name: "Copper Sembu",
     price: 1299,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2020/10/rathna-stores-copper_sembu-02-300x300.jpg",
+    image: "/images/copper sembu.jpeg",
     category: "copper",
     description: "Traditional copper water pot with health benefits.",
     rating: 4.7,
@@ -89,10 +82,9 @@ export const products: Product[] = [
   },
   {
     id: "cu-004",
-    name: "Uttharani",
+    name: "Copper Uttharani",
     price: 449,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2021/08/Copper-Uttharani-01-300x300.jpg",
+    image: "/images/copper uttarani.jpg",
     category: "copper",
     description: "Copper uttharani for traditional cooking and serving.",
     rating: 4.5,
@@ -102,10 +94,9 @@ export const products: Product[] = [
   // Brass Products
   {
     id: "br-001",
-    name: "Aduku",
+    name: "Brass Thavalai",
     price: 899,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2020/12/brass-adukku-02-300x300.jpg",
+    image: "/images/brass thavalai.jpeg",
     category: "brass",
     description: "Traditional brass aduku for cooking and food preparation.",
     rating: 4.4,
@@ -113,10 +104,9 @@ export const products: Product[] = [
   },
   {
     id: "br-002",
-    name: "Brass Aduku 2",
+    name: "Brass Aduku",
     price: 1199,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2020/12/brass-adukku-02-300x300.jpg",
+    image: "/images/brass aduku.webp",
     category: "brass",
     description: "Premium brass aduku with enhanced durability.",
     rating: 4.3,
@@ -125,23 +115,21 @@ export const products: Product[] = [
   },
   {
     id: "br-003",
-    name: "Vigrahaam Lord Ganesha",
+    name: "Brass Parath",
     price: 2499,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2021/08/Brass-Vigrahaam-lord-ganesha-left-300x300.jpg",
+    image: "/images/brass parath.jpg",
     category: "brass",
-    description: "Beautiful brass Ganesha idol for worship and decoration.",
+    description: "Beautiful brass parath for worship and decoration.",
     rating: 4.6,
     reviews: 98,
   },
   {
     id: "br-004",
-    name: "Door Bell",
+    name: "Brass Dabara set",
     price: 799,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2021/08/Brass-Door-Bell-03-300x300.jpg",
+    image: "/images/brass dabara set.jpg",
     category: "brass",
-    description: "Traditional brass door bell with authentic sound.",
+    description: "Traditional brass dabara set with authentic sound.",
     rating: 4.7,
     reviews: 87,
   },
@@ -151,7 +139,7 @@ export const products: Product[] = [
     id: "st-001",
     name: "Steel Kunda",
     price: 1899,
-    image: "https://rathnastores.in/wp-content/uploads/2022/07/33A-300x300.jpg",
+    image: "/images/steel kunda.jpg",
     category: "steel",
     description: "Heavy-duty steel kunda for commercial and domestic cooking.",
     rating: 4.9,
@@ -162,8 +150,7 @@ export const products: Product[] = [
     id: "st-002",
     name: "Steel Kinnam",
     price: 649,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2022/08/3-16-300x300.jpg",
+    image: "/images/steel kinnam.webp",
     category: "steel",
     description: "Stainless steel kinnam for efficient cooking and serving.",
     rating: 4.8,
@@ -173,8 +160,7 @@ export const products: Product[] = [
     id: "st-003",
     name: "Steel Idly Set",
     price: 899,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2022/08/3-118-300x300.jpg",
+    image: "/images/steel idly kunda.jpeg",
     category: "steel",
     description:
       "Complete steel idly set for making perfect South Indian idlis.",
@@ -183,12 +169,11 @@ export const products: Product[] = [
   },
   {
     id: "st-004",
-    name: "Dish Ambesh",
+    name: "Steel Parath",
     price: 549,
-    image:
-      "https://rathnastores.in/wp-content/uploads/2022/07/A18-2-300x300.jpg",
+    image: "/images/steel parath.jpg",
     category: "steel",
-    description: "Elegant steel dish ambesh for serving and presentation.",
+    description: "Elegant steel parath for serving and presentation.",
     rating: 4.7,
     reviews: 76,
   },

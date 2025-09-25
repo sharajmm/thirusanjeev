@@ -24,6 +24,7 @@ const Header: React.FC<HeaderProps> = ({
     { name: "Copper", key: "copper" },
     { name: "Brass", key: "brass" },
     { name: "Steel", key: "steel" },
+    { name: "Contact", key: "contact" },
   ];
 
   return (
@@ -95,19 +96,21 @@ const Header: React.FC<HeaderProps> = ({
           </div>
         </div>
 
-        {/* Search bar */}
-        <div className="pb-4">
-          <div className="relative">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
-            <input
-              type="text"
-              placeholder="Search for kitchen products..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-            />
+        {/* Search bar - hidden on home page */}
+        {currentPage !== "home" && (
+          <div className="pb-4">
+            <div className="relative">
+              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+              <input
+                type="text"
+                placeholder="Search for products..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+              />
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Mobile navigation */}
         {isMenuOpen && (

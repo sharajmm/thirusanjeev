@@ -3,6 +3,7 @@ import { ShoppingProvider } from "./context/ShoppingContext";
 import Header from "./components/Header";
 import HomePage from "./pages/HomePage";
 import CategoryPage from "./pages/CategoryPage";
+import ContactPage from "./pages/ContactPage";
 import CartPage from "./pages/CartPage";
 import FavouritesPage from "./pages/FavouritesPage";
 
@@ -21,6 +22,8 @@ function App() {
         return <CategoryPage category={currentPage} searchTerm={searchTerm} />;
       case "cart":
         return <CartPage />;
+      case "contact":
+        return <ContactPage />;
       case "favorites":
         return <FavouritesPage />;
       default:
@@ -42,12 +45,9 @@ function App() {
         {/* Footer */}
         <footer className="bg-gray-800 text-white py-12">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
                 <div className="flex items-center mb-4">
-                  <div className="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center mr-2">
-                    <span className="text-white font-bold">S</span>
-                  </div>
                   <h3 className="text-xl font-bold">Sanz Mart</h3>
                 </div>
                 <p className="text-gray-400">
@@ -91,16 +91,6 @@ function App() {
                       Steel
                     </button>
                   </li>
-                </ul>
-              </div>
-
-              <div>
-                <h4 className="text-lg font-semibold mb-4">Customer Service</h4>
-                <ul className="space-y-2 text-gray-400">
-                  <li>Help Center</li>
-                  <li>Shipping Info</li>
-                  <li>Returns & Exchanges</li>
-                  <li>Contact Us</li>
                 </ul>
               </div>
 
