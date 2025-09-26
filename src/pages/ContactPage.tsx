@@ -15,7 +15,7 @@ const ContactPage: React.FC = () => {
     setError(null);
 
     try {
-      const res = await fetch("https://formspree.io/f/xrbybjgq", {
+      const res = await fetch("https://formspree.io/f/xrbkyylo", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
